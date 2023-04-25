@@ -16,7 +16,7 @@ for j in range(2):
             s += v[0][j] * v[1][k] * u[0][l] * (u[1][0] * a[l][0][j][k] + u[1][1] * a[l][1][j][k])
 print(s)
 
-# Задание 8 и 11 менял формулу заполнения
+# Задание 11
 
 a = [[[[0 for x in range(3)] for y in range(3)] for z in range(3)] for w in range(3)]
 
